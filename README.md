@@ -3,7 +3,7 @@ This repository contains information related to the tool YODA: Young and newcOme
 
 This repository is not the original repository for this tool. Here are some links to the original project:
 
-* [The Official Project Page](http://distat.unimol.it/tools/YODA)
+* [The Official Project Page, not including the source code](http://distat.unimol.it/tools/YODA)
 * [A Video of the Tool](http://youtu.be/4yrbYT-LAXA)
  
 In this repository, for YODA you will find:

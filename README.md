@@ -9,9 +9,7 @@ This repository is not the original repository for this tool. Here are some link
 In this repository, for YODA you will find:
 
 * :x: Source code (not available)
-* :white_check_mark: The original tool (links to the jar files required for the YODA plugin)
-  * [Link 1](https://www.dropbox.com/s/7xa27epomg1lacz/JARS.zip)
-  * [Link 2](https://www.dropbox.com/s/bnaw54uzvmuus3d/OTHERS_JARS.zip)
+* :white_check_mark: The original tool (ICSE-2013-YODA/binaries)
 * :white_check_mark: [User guide to download and install YODA](http://www.ifi.uzh.ch/seal/people/panichella/YodaIntruction.zip)
 
 This repository was constructed by [Sarthak Shetty](https://github.com/spshetty), [Jennifer Tsan](https://github.com/jentsan) and [Venkatesh Sambandamoorthy](https://github.com/ven0226) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Sebastiano Panichella, Gerardo Canfora, Massimiliano Di Penta, Rocco Oliveto and Stefano Giannantonio for their help in establishing this repository.

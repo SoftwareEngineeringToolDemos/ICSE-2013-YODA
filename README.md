@@ -1,7 +1,7 @@
 # ICSE-2013-YODA
 This repository contains information related to the tool YODA: Young and newcOmer Developer Assistant presented at International Conference on Software Engineering, 2013. The tool was originally presented in [this paper.](http://dl.acm.org/citation.cfm?id=2486998&dl=ACM&coll=DL&CFID=549134660&CFTOKEN=21620621)
 
-This repository is not the original repository for this tool. Here are some links to the original project:
+This repository *is not* the original repository for this tool. Here are some links to the original project:
 
 * [The Official Project Page, not including the source code](http://distat.unimol.it/tools/YODA)
 * [A Video of the Tool](http://youtu.be/4yrbYT-LAXA)

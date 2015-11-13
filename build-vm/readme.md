@@ -6,7 +6,7 @@ VM Setup using Vagrant and Chocolatey
 
 4. Add the InstallChocolatey.bat and InstallJava.bat file in the directory where you have the vagrantfile.
 
-5. Open up the Vagrantfile and type in 'config.vm.provision :shell, path: "bootstrap.bat"' and 'config.vm.provision :shell, path: "installJava.bat' after the line containing config.vm.box="datacastle/windows7".
+5. Open up the Vagrantfile and type in 'config.vm.provision :shell, path: "InstallChocolatey.bat"' and 'config.vm.provision :shell, path: "InstallJava.bat' after the line containing config.vm.box="datacastle/windows7".
 
 6. Open command prompt and type the command 'vagrant up --provider virtualbox'.
 

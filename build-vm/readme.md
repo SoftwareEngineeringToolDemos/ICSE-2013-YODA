@@ -6,9 +6,9 @@ VM Setup using Vagrant and Chocolatey
 
 4. Add the InstallChocolatey.bat and InstallJava.bat file in the directory where you have the vagrantfile.
 
-5. Open up the Vagrantfile and type in 'config.vm.provision :shell, path: "bootstrap.bat"' and 'config.vm.provision :shell, path: "installJava.bat' after the line containing config.vm.box="datacastle/windows7"
+5. Open up the Vagrantfile and type in 'config.vm.provision :shell, path: "bootstrap.bat"' and 'config.vm.provision :shell, path: "installJava.bat' after the line containing config.vm.box="datacastle/windows7".
 
-6. Use the command 'vagrant up --provider virtualbox'.
+6. Open command prompt and type the command 'vagrant up --provider virtualbox'.
 
 7. Following can be observed:
     Base box image is downloaded and added in Vagrant.
@@ -18,10 +18,12 @@ VM Setup using Vagrant and Chocolatey
     VM is launched in GUI mode.
     
     Java 1.7 is installed using Chocolatey.
+  
+    You are asked for login credentials. Username is vagrant and Password is vagrant.
     
     You will be asked to actiavte windows online ( Do it and the OS will be active for 90 days).
 
-6. If you would like to check the java version, open command prompt and type in 'java -version'.
+6. If you would like to check the java version, open command prompt in the VM and type in 'java -version'.
 
 References
   1. Vagrant box can be found at [datacastle/windows7](https://atlas.hashicorp.com/datacastle/boxes/windows7)

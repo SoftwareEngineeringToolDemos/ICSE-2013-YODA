@@ -42,9 +42,6 @@ echo oLink.Save >> CreateShortcut.vbs
 cscript CreateShortcut.vbs
 del CreateShortcut.vbs
 
-echo "Adding eclipse to startup"
-copy %USERPROFILE%\Desktop\eclipse.lnk %PROGRAMDATA%\Microsoft\Windows\"Start Menu"\Programs\Startup
-
 ::These commands create a youtube shortcut to the Demo of the tool YODA
 @echo off
 

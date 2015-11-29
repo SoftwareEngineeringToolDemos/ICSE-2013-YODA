@@ -1,12 +1,12 @@
-VM Setup using Vagrant and Chocolatey
-
+**STEPS:**
 1. Open command prompt and create a new directory.
 
 2. Go to that directory and type in 'vagrant init datacastle/windows7'. This will create a Vagrantfile.
 
-4. Add the InstallChocolatey.bat and InstallJava.bat file in the directory where you have the vagrantfile.
+4. Add the InstallChocolatey.bat, InstallJava.bat and InstallToolandFiles.bat files in the directory where you have the    
+   vagrantfile.
 
-5. Open up the Vagrantfile and type in 'config.vm.provision :shell, path: "InstallChocolatey.bat"' and 'config.vm.provision :shell, path: "InstallJava.bat' after the line containing config.vm.box="datacastle/windows7".
+5. Delete the existing vagrantfile in the directory and replace it by the vagrantfile given here.
 
 6. Open command prompt and type the command 'vagrant up --provider virtualbox'.
 
@@ -18,15 +18,27 @@ VM Setup using Vagrant and Chocolatey
     VM is launched in GUI mode.
     
     Java 1.7 is installed using Chocolatey.
+    
+    Eclipse and all the required text files are installed.
   
     You are asked for login credentials. Username is vagrant and Password is vagrant.
     
     You will be asked to actiavte windows online ( Do it and the OS will be active for 90 days).
 
-6. If you would like to check the java version, open command prompt in the VM and type in 'java -version'.
+8. Eclipse will open up after you log in and it has the tool YODA configured in it. You can right click and see the YODA        plugin .
 
-References
+9. For steps to see the tool in action, refer to Readme.txt on the desktop.
+
+**NOTE:**
+1. After vagrant up command, it takes quite a lot of time for all the software and files to be installed.
+
+2. Please wait for the vagrant up command to be finished and then you can log in to the VM.
+
+
+**References:**
   1. Vagrant box can be found at [datacastle/windows7](https://atlas.hashicorp.com/datacastle/boxes/windows7)
 
   2. Chocolatey script [github](https://github.com/chocolatey/choco/wiki/Installation#command-line)
+  
+  3. 
 

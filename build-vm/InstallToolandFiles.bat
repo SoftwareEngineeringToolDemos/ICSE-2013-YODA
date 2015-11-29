@@ -1,6 +1,7 @@
 if not exist "C:\Tools" mkdir "C:\Tools"
-echo "Downloading Eclipse and workspace"
 
+::These commands download workspace and eclipse and extract them
+echo "Downloading workspace and eclipse"
 @powershell -NoProfile -ExecutionPolicy unrestricted -Command "(New-Object Net.WebClient).DownloadFile('https://www.dropbox.com/s/1hhdk6dimsv57bd/workspace.zip?dl=1','C:\Tools\workspace.zip');"
 
 @powershell -NoProfile -ExecutionPolicy unrestricted -Command "(New-Object -com shell.application).namespace('C:\').CopyHere((new-object -com shell.application).namespace('C:\Tools\workspace.zip').Items(),16)"
@@ -10,6 +11,7 @@ echo "Downloading Eclipse and workspace"
 echo "Extracting eclipse"
 @powershell -NoProfile -ExecutionPolicy unrestricted -Command "(New-Object -com shell.application).namespace('C:\').CopyHere((new-object -com shell.application).namespace('C:\Tools\Eclipse.zip').Items(),16)"
 
+::These commands download installation, license and readme text files on desktop.
 echo "downloading text files to desktop"
 @powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=0B3F7juy-6KttaDJ3aWlfekpiRnM', '%USERPROFILE%\Desktop\Installation.txt')"
 @powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=0B3F7juy-6KttQlFsLWliSm9xcWs', '%USERPROFILE%\Desktop\License.txt')"
@@ -19,6 +21,7 @@ if not exist "%USERPROFILE%\Desktop\Tools" mkdir "%USERPROFILE%\Desktop\Binaries
 if not exist "%USERPROFILE%\Desktop\Tools" mkdir "%USERPROFILE%\Desktop\Binaries of Yoda\GEF-ALL-3.9.0M7"
 if not exist "%USERPROFILE%\Desktop\Tools" mkdir "%USERPROFILE%\Desktop\Binaries of Yoda\GEF-draw2d-sdk-3.8.2"
 
+::These commands download the binaries of YODA.
 echo "downloading binary files to desktop"
 @powershell -NoProfile -ExecutionPolicy unrestricted -Command "(New-Object Net.WebClient).DownloadFile('https://github.com/SoftwareEngineeringToolDemos/ICSE-2013-YODA/raw/master/binaries/Yoda_1.0.0.jar','%USERPROFILE%\Desktop\Binaries of Yoda\Yoda_1.0.0.jar');"
 
@@ -42,6 +45,7 @@ del CreateShortcut.vbs
 echo "Adding eclipse to startup"
 copy %USERPROFILE%\Desktop\eclipse.lnk %PROGRAMDATA%\Microsoft\Windows\"Start Menu"\Programs\Startup
 
+::These commands create a youtube shortcut to the Demo of the tool YODA
 @echo off
 
 (echo [InternetShortcut]

@@ -40,3 +40,5 @@
   1. Vagrant box can be found at [datacastle/windows7](https://atlas.hashicorp.com/datacastle/boxes/windows7)
 
   2. Chocolatey script [github](https://github.com/chocolatey/choco/wiki/Installation#command-line)
+  
+  3. Install tool and files [scripts](https://superuser.com)

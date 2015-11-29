@@ -29,7 +29,7 @@
     
     You will be asked to actiavte windows online ( Do it and the OS will be active for 90 days).
 
-8. Eclipse will open up after you log in and it has the tool YODA configured in it. You can right click and see the YODA        plugin .
+8. Open Eclipse  after you log in and it has the tool YODA configured in it. You can right click and see the YODA plugin
 
 9. For steps to see the tool in action, refer to Readme.txt on the desktop.
 

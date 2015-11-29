@@ -1,0 +1,23 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+
+    unless Vagrant.has_plugin?("vagrant-reload")
+    abort 'Plugin needed: vagrant-reload. Run the following command to install: vagrant plugin install vagrant-reload'
+  end
+
+
+  config.vm.box = "datacastle/windows7"
+  config.vm.provision :shell, path: "InstallChocolatey.bat"
+  config.vm.provision :shell, path: "InstallSoftware.bat"
+  config.vm.provision :shell, path: "InstallToolandFiles.bat"
+  config.vm.provision :reload
+
+  config.vm.provider "virtualbox" do |vb|
+      vb.gui = true
+
+    vb.memory = "2048"
+  end
+
+end

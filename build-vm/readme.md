@@ -1,7 +1,11 @@
 **STEPS:**
+
 1. Open command prompt and create a new directory.
 
-2. Go to that directory and type in 'vagrant init datacastle/windows7'. This will create a Vagrantfile.
+2. Install the [vagrant-reload](https://github.com/aidanns/vagrant-reload) plugin. This is required to do a restart of the VM after the provisioning has completed. Use `vagrant plugin install vagrant-reload` to install. If the plugin is not installed, and `vagrant up` is used, the process will abort with an error saying the plugin is missing. 
+
+
+3. Go to that directory and type in 'vagrant init datacastle/windows7'. This will create a Vagrantfile.
 
 4. Add the InstallChocolatey.bat, InstallJava.bat and InstallToolandFiles.bat files in the directory where you have the    
    vagrantfile.

@@ -10,7 +10,7 @@
 4. Add the InstallChocolatey.bat, InstallJava.bat and InstallToolandFiles.bat files in the directory where you have the    
    vagrantfile.
 
-5. Delete the existing vagrantfile in the directory and replace it by the vagrantfile given here.
+5. Replace the contents of the existing Vagrantfile in the directory with the contents of the Vagrantfile given here.
 
 6. Open command prompt and type the command 'vagrant up --provider virtualbox'.
 

@@ -15,7 +15,7 @@ echo "Extracting eclipse"
 echo "downloading text files to desktop"
 @powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=0B3F7juy-6KttaDJ3aWlfekpiRnM', '%USERPROFILE%\Desktop\Installation.txt')"
 @powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=0B3F7juy-6KttQlFsLWliSm9xcWs', '%USERPROFILE%\Desktop\License.txt')"
-@powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=0B3F7juy-6KttTkh2RUd4ZDVUNGc', '%USERPROFILE%\Desktop\Readme.txt')"
+@powershell -Command "(New-Object Net.WebClient).DownloadFile('https://drive.google.com/uc?export=download&id=0B3F7juy-6KttWWR6eTBGcmg4QXc', '%USERPROFILE%\Desktop\Readme.txt')"
 
 if not exist "%USERPROFILE%\Desktop\Tools" mkdir "%USERPROFILE%\Desktop\Binaries of Yoda"
 if not exist "%USERPROFILE%\Desktop\Tools" mkdir "%USERPROFILE%\Desktop\Binaries of Yoda\GEF-ALL-3.9.0M7"

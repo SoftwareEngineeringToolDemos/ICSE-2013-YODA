@@ -33,6 +33,7 @@ echo "downloading binary files to desktop"
 
 @powershell -NoProfile -ExecutionPolicy unrestricted -Command "(New-Object -com shell.application).namespace('%USERPROFILE%\Desktop\Binaries of Yoda\GEF-draw2d-sdk-3.8.2').CopyHere((new-object -com shell.application).namespace('%USERPROFILE%\Downloads\GEF-draw2d-sdk-3.8.2.zip').Items(),16)"
 
+::These commands create eclipse shortcut on desktop
 @echo off
 echo Set oWS = WScript.CreateObject("WScript.Shell") > CreateShortcut.vbs
 echo sLinkFile = "%USERPROFILE%\Desktop\eclipse.lnk" >> CreateShortcut.vbs

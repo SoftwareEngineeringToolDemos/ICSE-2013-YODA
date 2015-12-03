@@ -11,6 +11,6 @@ In this repository, for YODA you will find:
 * :x: Source code (not available)
 * :white_check_mark: [The original tool](https://github.com/SoftwareEngineeringToolDemos/ICSE-2013-YODA/tree/master/binaries)
 * :white_check_mark: [The original download page (contains link of the user guide to download and install YODA)](http://www.ing.unisannio.it/spanichella/pages/projects.html)
-* :white_check_mark [Virtual machine containing tool](https://drive.google.com/drive/u/0/folders/0B3GbPov8x279UFNIOFJGN1hlUEk) 
+* :white_check_mark: [Virtual machine containing tool](https://drive.google.com/drive/u/0/folders/0B3GbPov8x279UFNIOFJGN1hlUEk) 
 
 This repository was constructed by [Sarthak Shetty](https://github.com/spshetty), [Jennifer Tsan](https://github.com/jentsan) and [Venkatesh Sambandamoorthy](https://github.com/ven0226) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Sebastiano Panichella, Gerardo Canfora, Massimiliano Di Penta, Rocco Oliveto and Stefano Giannantonio for their help in establishing this repository.
